@@ -7,18 +7,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--Css Nativo, fazer a edição que o boots n tem-->
     <style>
-        
+       body{
+        background-color: rgb(228, 228, 228);
+      }
         .rodape{
-            background-color: rgb(255, 0, 0);
-            font-size: 30px;
+            background-color: rgb(207, 207, 207);;
+            font-size: 25px;
             font-family: Georgia, 'Times New Roman', Times, serif;
             text-align: center;
-            height: 300px;
-            box-shadow: 0px -10px 10px rgba(128, 126, 126, 0.8);
-            line-height: 300px;
+            height: 150px;
+            line-height: 150px;
             margin-top: 25px;
             border-radius: 5px;
-            color: white;
+            color: rgb(29, 29, 29);
+        }
+        a{
+          color: rgb(61, 61, 61);
+        }
+        a:hover{
+          color: rgb(90, 90, 90);
         }
     </style>
 </head>
@@ -26,61 +33,62 @@
 
 <body>
     
-    <!--Barra de navegação-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- add image -->
+  <!--Barra de navegação-->
+  <nav class="navbar navbar-expand-lg "> 
+      <!-- add image -->
 <nav class="navbar navbar-light">
-    <a class="navbar-brand" href="#">
-      <img src="image/guitara.png" width="70" height="70" alt="">
-    </a>
-  </nav>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="segpag.html">Microfones</a>
-            </li>
-            <li class="nav-item dropdown">
+  <a class="navbar-brand" href="#">
+    <img src="image/guitara.png" width="70" height="70" alt="">
+  </a>
+</nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="segpag.html">MICROFONES</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              CORDAS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">GUITARRAS</a>
+              <a class="dropdown-item" href="#">VIOLÕES</a>
+              <a class="dropdown-item" href="#">BAIXOS</a>
+              <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">TECLADOS</a>
+            </div>
+          </li>
+          
+          <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Cordas
+                PERCUSSÃO
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Guitarras</a>
-                <a class="dropdown-item" href="#">Violões</a>
-                <a class="dropdown-item" href="#">Baixos</a>
+                <a class="dropdown-item" href="#">BATERIAS</a>
+                <a class="dropdown-item" href="#">PANDEIROS</a>
                 <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Teclados</a>
+                <a class="dropdown-item" href="#">MEIA LUA</a>
               </div>
             </li>
-            
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Percussão
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Baterias</a>
-                  <a class="dropdown-item" href="#">Pandeiros</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Meia Lua</a>
-                </div>
-              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Localização</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar item aqui..." aria-label="Search">
-            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
-        </div>
-      </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LOCALIZAÇÃO</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar item aqui..." aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </nav>
+
 
       <div class="card col-4" style="width: 18rem;">
         <img class="card-img-top" src="image/microfone.png" alt="Card image cap">
@@ -111,7 +119,7 @@
       </div>
 
       <div class="rodape">
-        © Copyright - SV 
+        All © Copyrights - S.V Company 
       </div>
 </body>
 
