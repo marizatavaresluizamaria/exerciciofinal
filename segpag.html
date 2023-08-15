@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEGUNDA PÁGINA</title>
+    <title>Seven Chords</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--Css Nativo, fazer a edição que o boots n tem-->
     <style>
         .rodape{
-            background-color: crimson;
+            background-color: rgb(255, 0, 0);
             font-size: 30px;
             font-family: Georgia, 'Times New Roman', Times, serif;
             text-align: center;
@@ -28,9 +28,9 @@
     <!--Barra de navegação-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <!-- add image -->
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light">
     <a class="navbar-brand" href="#">
-      <img src="image/disco-de-vinil.png" width="30" height="30" alt="">
+      <img src="image/guitara.png" width="70" height="70" alt="">
     </a>
   </nav>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,28 +43,30 @@
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Favoritas</a>
+              <a class="nav-link" href="segpag.html">Microfones</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Integrantes
+                Cordas
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Bob</a>
-                <a class="dropdown-item" href="#">Rogéria</a>
-                <a class="dropdown-item" href="#">Carlos</a>
+                <a class="dropdown-item" href="#">Guitarras</a>
+                <a class="dropdown-item" href="#">Violões</a>
+                <a class="dropdown-item" href="#">Baixos</a>
+                <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Teclados</a>
               </div>
             </li>
             
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Tours
+                  Percussão
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">México</a>
-                  <a class="dropdown-item" href="#">Nova Iorque</a>
+                  <a class="dropdown-item" href="#">Baterias</a>
+                  <a class="dropdown-item" href="#">Pandeiros</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">London</a>
+                  <a class="dropdown-item" href="#">Meia Lua</a>
                 </div>
               </li>
 
@@ -79,8 +81,36 @@
         </div>
       </nav>
 
+      <div class="card col-4" style="width: 18rem;">
+        <img class="card-img-top" src="image/microfone.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">R$ 58,98</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modal_dobotao">Comprar</a>
+        </div>
+      </div>
+
+      <div id="modal_dobotao" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Desculpe! </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>O item que você selecionou está fora de estoque no momento. Para mais informações, contate o e-mail: sevenchordspublic@hetmeils.com</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="rodape">
-        DENDEREÇO?
+        © Copyright - SV 
       </div>
 </body>
 

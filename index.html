@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BPlace</title>
+    <title>Seven Chords</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--Css Nativo, fazer a edição que o boots n tem-->
     <style>
+      body{
+        background-color: rgb(233, 240, 239);
+      }
         .rodape{
-            background-color: crimson;
-            font-size: 30px;
+            background-color: rgb(0, 0, 0);;
+            font-size: 25px;
             font-family: Georgia, 'Times New Roman', Times, serif;
             text-align: center;
-            height: 300px;
-            box-shadow: 0px -10px 10px rgba(128, 126, 126, 0.8);
-            line-height: 300px;
+            height: 150px;
+            line-height: 150px;
             margin-top: 25px;
             border-radius: 5px;
-            color: white;
+            color: rgb(100, 100, 100);
+        }
+        a{
+          color: rgb(61, 61, 61);
+        }
+        a:hover{
+          color: rgb(90, 90, 90);
         }
     </style>
 </head>
@@ -26,7 +34,7 @@
 <body>
     
     <!--Barra de navegação-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg "> 
         <!-- add image -->
 <nav class="navbar navbar-light">
     <a class="navbar-brand" href="#">
@@ -40,38 +48,38 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="segpag.html">Microfones</a>
+              <a class="nav-link" href="segpag.html">MICROFONES</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Cordas
+                CORDAS
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Guitarras</a>
-                <a class="dropdown-item" href="#">Violões</a>
-                <a class="dropdown-item" href="#">Baixos</a>
+                <a class="dropdown-item" href="#">GUITARRAS</a>
+                <a class="dropdown-item" href="#">VIOLÕES</a>
+                <a class="dropdown-item" href="#">BAIXOS</a>
                 <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Teclados</a>
+                  <a class="dropdown-item" href="#">TECLADOS</a>
               </div>
             </li>
             
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Percussão
+                  PERCUSSÃO
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Baterias</a>
-                  <a class="dropdown-item" href="#">Pandeiros</a>
+                  <a class="dropdown-item" href="#">BATERIAS</a>
+                  <a class="dropdown-item" href="#">PANDEIROS</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Meia Lua</a>
+                  <a class="dropdown-item" href="#">MEIA LUA</a>
                 </div>
               </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Localização</a>
+              <a class="nav-link" href="#">LOCALIZAÇÃO</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -88,17 +96,10 @@
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="image/pessoas.png" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>VENHA!</h5>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-              </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="image/carinha.png" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>SÓ HOJE</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, rerum! Dolorem maiores voluptatem perferendis esse nesciunt accusamus ipsam non quo beatae voluptatum deserunt, nam, doloremque numquam, quisquam odio dolorum alias.</p>
-              </div>
+            
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -115,27 +116,27 @@
       <div class="row">
 
         <div class="card col-4" style="width: 18rem;">
-            <img class="card-img-top" src="image/vinil.png" alt="Card image cap">
+            <img class="card-img-top" src="image/guitarra.webp" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">R$ 899,89</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aliquid repellat excepturi.</p>
+              <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modal_dobotao5">Garanta o Seu</a>
             </div>
           </div>
           <div class="card col-4" style="width: 18rem;">
-            <img class="card-img-top" src="image/bannergestalt.png" alt="Card image cap">
+            <img class="card-img-top" src="image/bass.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">R$ 709,89</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tempora fugiat voluptate modi.</p>
+              <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modal_dobotao4">Garanta o Seu</a>
             </div>
           </div>
           <div class="card col-4" style="width: 18rem;">
-            <img class="card-img-top" src="image/bannergestalt.png" alt="Card image cap">
+            <img class="card-img-top" src="image/teclads.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">R$ 1899,99</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quasi labore nobis vitae at impedit libero.</p>
+              <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modal_dobotao3">Garanta o Seu</a>
             </div>
           </div>
 
@@ -146,27 +147,27 @@
       <div class="row">
 
         <div class="card col-4" style="width: 18rem;">
-            <img class="card-img-top" src="image/bannergestalt.png" alt="Card image cap">
+            <img class="card-img-top" src="image/meia lua.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">R$ 89,70</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptatibus.</p>
+              <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modal_dobotao2">Garanta o Seu</a>
             </div>
           </div>
           <div class="card col-4" style="width: 18rem;">
-            <img class="card-img-top" src="image/bannergestalt.png" alt="Card image cap">
+            <img class="card-img-top" src="image/bateria.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">R$ 3500,00</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quisquam delectus est accusantium qui.</p>
+              <a href="#" class="btn btn-info" data-toggle="modal" data-target="#modal_dobotao1">Garanta o Seu</a>
             </div>
           </div>
           <div class="card col-4" style="width: 18rem;">
-            <img class="card-img-top" src="image/bannergestalt.png" alt="Card image cap">
+            <img class="card-img-top" src="image/microfone.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_dobotao">Botão Funcional</a>
+              <h5 class="card-title">R$ 58,98</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis ipsa ut eligendi molestiae repellendus.</p>
+              <a href="segpag.html" class="btn btn-info">Garanta o Seu</a>
             </div>
           </div>
 
@@ -177,23 +178,118 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
+              <h5 class="modal-title">Desculpe! </h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <p>Modal body text goes here.</p>
+              <p>O item que você selecionou está fora de estoque no momento. Para mais informações, contate o e-mail: sevenchordspublic@hetmeils.com</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal_dobotao1" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Desculpe! </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>O item que você selecionou está fora de estoque no momento. Para mais informações, contate o e-mail: sevenchordspublic@hetmeils.com</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal_dobotao2" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Desculpe! </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>O item que você selecionou está fora de estoque no momento. Para mais informações, contate o e-mail: sevenchordspublic@hetmeils.com</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal_dobotao3" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Desculpe! </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>O item que você selecionou está fora de estoque no momento. Para mais informações, contate o e-mail: sevenchordspublic@hetmeils.com</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal_dobotao4" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Desculpe! </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>O item que você selecionou está fora de estoque no momento. Para mais informações, contate o e-mail: sevenchordspublic@hetmeils.com</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal_dobotao5" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Desculpe! </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>O item que você selecionou está fora de estoque no momento. Para mais informações, contate o e-mail: sevenchordspublic@hetmeils.com</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
       </div>
 
       <div class="rodape">
-        DENDEREÇO?
+       All © Copyrights - S.V Company 
       </div>
 </body>
 
